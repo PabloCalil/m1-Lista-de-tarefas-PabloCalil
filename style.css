@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'robot', sans-serif;
+    background-color: #e2e2e2;
+}
+
+.header__container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 84%;
+    align-items: center;
+}
+
+.header__title{
+    color: #3b5bdb;
+}
+
+ .header__input--search{
+    background-color: #ebebeb;
+    margin: 10px 0px;
+    padding: 10px;
+    max-width: 700px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form__container{
+    margin: 30px;
+    padding: 35px;
+    background-color: white;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form__input--text{
+    width: 60%;
+    height: 35px;
+    padding-left: 16px;
+}
+
+.form__input--priority{
+    width: 40%;
+    height: 38px;
+    padding-left: 16px;
+}
+
+.input__box{
+    background-color: #ebebeb;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.form__button--add-task{
+    height: 0.9cm;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3b5bdb;
+    color: white;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.tasks__container{
+    margin: 20px;
+    padding: 35px;
+    background-color: white;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.task__item{
+    background-color: #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 5px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.task-info__container{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.task__button--remove-task{
+    background-image: url(https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/m2-lista-de-tarefas/8331d765b661a4c027f93250026591d030792d09/assets/trash-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-right: 20px;
+}
+
+.task-type{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.span-urgent{
+    background-color: #e40404;
+}
+
+.span-normal{
+    background-color: #028302;
+}
+
+.span-important{
+    background-color: #f3a703;
+}
