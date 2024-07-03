@@ -16,12 +16,12 @@ function renderElements(tasks) {
   list.innerHTML = "";
 
   for (let i = 0; i < tasks.length; i++) {
-    const li = createTaskItem(tasks[i].title, tasks[i].type);
+    const li = createTaskItem({title: tasks[i].title, type: tasks[i].type});
     list.appendChild(li);
   }
 }
 
-function createTaskItem(title, type) {
+function createTaskItem({title: title, type: type}) {
   const listElement = document.createElement("li");
   const listDiv = document.createElement("div");
   const listSpan = document.createElement("span");
