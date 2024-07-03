@@ -16,7 +16,7 @@ function renderElements(tasks) {
   list.innerHTML = "";
 
   for (let i = 0; i < tasks.length; i++) {
-    const li = createTaskItem({title: tasks[i].title, type: tasks[i].type});
+    const li = createTaskItem(tasks[i]);
     list.appendChild(li);
   }
 }
